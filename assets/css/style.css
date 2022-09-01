@@ -1,0 +1,214 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Calibri !important
+}
+.main{
+    display: flex;
+    width: 1420px;
+    box-shadow: 2px 25px 25px 2px gray
+}
+.main .firstPart{
+    background-color: #7e7e7e;
+    padding: 20px 0px;
+    width: 520px
+}
+.main .secondPart{
+    width: 900px;
+    border: solid 0.5px rgb(243, 243, 243);
+    overflow: hidden;
+    padding-left: 15px;
+}
+.firstPart .initialeSection{
+    display: block; 
+    height: 200px
+}
+.initialeSection .initiale{
+    display: flex;
+     width: 100vmin
+}
+.initialeSection .bandeInitiale{
+    position: absolute;
+    width: 520px;
+    background-color: #d0cece;
+    height: 50px;
+    margin-top: 50px;
+}
+.cercleInitiale{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 260px;
+    transform: translateX(-50%);
+    background-color: #7e7e7e;
+    border: 3px solid #d0cece;
+    border-radius: 50%;
+}
+.letterInitiale{
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    font-family: Calibri;
+    color: white;
+    font-weight: 600;
+    -webkit-text-stroke: 3px #d0cece;
+}
+.legendWhite{
+    border: solid 1px white;
+    font-family: Calibri;
+    padding: 13px 5px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    height: 15px;
+    width: 150px;
+    color: white;
+}
+.contactSection{
+    display: flex;
+    padding-left: 30px
+}
+img{
+    filter: invert(); 
+    width: 20px
+}
+.contentText{
+    height: 40px
+}
+.bgBarProgress{
+    width: 250px;
+    color: white;
+    height: 10px;
+    background-color: #a6a6a6;          
+}
+.textBarProgress{
+    width: 200px;
+     color: white
+}
+.levelBarProgress{
+    background-color: white;
+    height: 10px
+}
+.contentTextDiv{
+    display: flex; 
+    padding-left: 40px
+}
+.legendSection{
+    border: solid 1px white;
+    font-family: Calibri;
+    padding: 13px 5px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    height: 15px;
+    width: 150px;
+    color: white;
+}
+.legendBarWhite{
+    background-color: white;
+    margin-top: 20px;
+    height: 1px;
+    width: 290px;
+}
+.coinDesign{
+    
+    width: 100px;
+    height: 100px;
+    background-color: #d0cece;
+    transform: rotate(45deg);
+    margin-left: 850px;
+    margin-top: -50px;
+}
+.firstnameDesign{
+    font-weight: 700; font-size: 70px
+}
+.lastnameDesign{
+    font-size: 40px;
+    text-shadow: -2px 2px #d0cece;
+    padding: 0px 25px;
+}
+.jobDesign{
+    font-size: 15px;
+    float: right;
+    padding-right: 10px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.legendeDate{
+    display: flex; 
+    margin-left: 25px; 
+    position: absolute;
+}
+.legendeDateText{
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: white;
+}
+.legendeDateContent{
+    position: relative;
+    width: 160px;
+    background-color: #7e7e7e;
+}
+.ombreIllusion{
+    width: 0px;
+    height: 0px;
+    border-top: 21px solid #d0cece;
+    border-left: 21px solid #d0cece;
+    border-right: 21px solid transparent;
+    border-bottom: 21px solid transparent;
+                
+}
+.experienceText{
+    width: 400px;
+    text-transform: uppercase;
+    color: #275988;
+    font-size: 18px;
+    padding-left: 15px;
+                  
+}
+ul{
+    margin-bottom:70px;margin-left: 25px;
+}
+li{
+    padding-left:20px;margin-top:10px
+}
+.cardLoisir{
+    border: solid 1px #467caf;
+    font-family: Calibri;
+    padding: 13px 5px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    height: 15px;
+    width: 150px;
+    color: #467caf;
+  
+}
+.barCardLoisir{
+    
+    background-color: #467caf;
+    margin-top: 20px;
+    height: 1px;
+    width: 640px;
+  
+}
+.barCardExperience{
+   background-color: #467caf;
+                margin-top: 20px;
+                height: 1px;
+                width: 640px;
+              
+}
+.cardExperience{
+    
+    border: solid 1px #467caf;
+    font-family: Calibri;
+    padding: 13px 5px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    height: 15px;
+    width: 150px;
+    color: #467caf;
+}
